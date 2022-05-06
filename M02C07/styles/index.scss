@@ -1,0 +1,42 @@
+/*
+    Nuestras constantes
+*/
+@import "constants/colors";
+
+/*
+    Estilos base y normalize como reset
+*/
+@import "base/normalize";
+@import "base/anchor";
+@import "base/typography";
+@import "base/scrollbar";
+@import "base/button";
+/*
+    Clases de utildiad
+*/
+@import "utilities/wrapper";
+@import "utilities/content";
+/*
+
+/*
+    Bloques o componentes de la aplicacion
+*/
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/modal";
+
+html {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--purple-0);
+  color: var(--purple-3);
+  transition: 500ms ease-in-out, color 100ms ease-in-out;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  overflow-x: hidden;
+  min-height: 100vh;
+}

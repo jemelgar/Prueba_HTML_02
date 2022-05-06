@@ -1,0 +1,3 @@
+function loadDB() {}
+
+export { loadDB };

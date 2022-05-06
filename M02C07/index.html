@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Modulo 2 | Clase 7 | Que no se pierdan tus datos! Usa localStorage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="wrapper">
+            <div class="site-header__inner">
+                <a href="/" aria-label="Studio Ghibli Database" class="site-header__brand">
+                    Anime Repository
+                </a>
+                <nav class="nav" aria-label="primary">
+                    <ul class="nav__list">
+                        <li><a href="watched.html">saved</a></li>
+                     </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main" class="wrapper">
+        <h1>Este es el contenido del sitio web</h1>
+        <p>este contenido tiene sorpresas para ti</p>
+        <button data-type="filled" onclick="alert('hola :D')">Saludar</button>
+    </main>
+    <div class="cookie_modal active" id="cookie_modal">
+        <img class="cookie_modal__image" src="./assets/cookie.png" alt="image of cookie" aria-hidden="true">
+        <div class="cookie_modal__inner">
+            <h3>This website uses cookies to offer you a better user experience.
+                Please accept cookies for optimal performance.
+            </h3>
+            <div class="cookie_modal__actions">
+                <button data-type="filled" id="cookie_button">Yes, I accept cookies</button>
+                <button data-type="text">More information</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
